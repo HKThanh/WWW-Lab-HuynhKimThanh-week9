@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MULTIPLY</title>
+</head>
+<body>
+    <h1>Bang cuu chuong</h1>
+    <table>
+        <tbody>
+            <tr th:each="result : ${multiply}">
+                <td th:text="*{result.value}"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
